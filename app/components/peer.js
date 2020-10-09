@@ -80,7 +80,7 @@ const Peer = ({ state, send }) => {
   useEffect(() => {
     if (!watchId) return
     console.log('CONNECTING', Socket.id, watchId)
-    fetch('http://signaling.localhost:1324/api/connection', {
+    fetch('https:///alyonka-signaling.onrender.com/api/connection', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
