@@ -1,0 +1,27 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@font-face {
+  font-family: Varela;
+  src: url(assets/fonts/VarelaRound-Regular.ttf);
+}
+
+@font-face {
+  font-family: M_PLUS;
+  font-weight: bold;
+  src: url(assets/fonts/MPLUSRounded1c-ExtraBold.ttf);
+}
+
+* {
+  font-family: Varela, serif;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  overflow-y: hidden;
+  background: #0a0d11;
+}
